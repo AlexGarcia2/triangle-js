@@ -10,6 +10,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     devtool: 'eval-source-map',
+    mode: 'development',
     devServer: {
       contentBase: './dist'
     },
